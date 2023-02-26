@@ -35,7 +35,6 @@ const App = () => {
     });
   }
 
-
   const handleChange = (event) => {
     if (event.target.name === "ownerName") {
       if (validateNumberString(event.target.value)) {
